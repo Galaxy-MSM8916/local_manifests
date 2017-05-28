@@ -31,41 +31,35 @@
 
   <remove-project name="platform/sdk" />
   
- <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" />
+  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" />
+
+  <project path="external/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" />
+  <project path="external/busybox" name="LineageOS/android_external_busybox" />
+  <project path="external/stlport" name="platform/external/stlport" groups="pdk" remote="aosp5" />
 
   <project path="device/qcom-common" name="LineageOS/android_device_qcom_common"/>
   <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" groups="device" />
 
   <project path="device/samsung/msm8916-common" name="Galaxy-MSM8916/android_device_samsung_msm8916-common" groups="device" remote="github" revision="cm-13.0"/>
-  <project path="kernel/samsung/msm8916" name="Galaxy-MSM8916/android_kernel_samsung_msm8916" remote="github" revision="cm-14.1-MM-merge"/>
+  <project path="kernel/samsung/msm8916" name="Galaxy-MSM8916/android_kernel_samsung_msm8916" remote="github" revision="cm-14.1"/>
 
   <project path="device/samsung/j5-common" name="Galaxy-MSM8916/android_device_samsung_j5-common" groups="device" remote="github" revision="cm-13.0"/>
   <project path="device/samsung/j5ltexx" name="Galaxy-MSM8916/android_device_samsung_j5ltexx" groups="device" remote="github" revision="cm-13.0"/>
   <project path="device/samsung/j53gxx" name="Galaxy-MSM8916/android_device_samsung_j53gxx" groups="device" remote="github" revision="cm-13.0"/>
-  <project path="vendor/samsung/j53gxx" name="Galaxy-MSM8916/android_vendor_samsung_j53gxx" groups="device" remote="github" revision="cm-13.0"/>
 
   <project path="device/samsung/gprimelte-common" name="Galaxy-MSM8916/android_device_samsung_gprimelte-common" groups="device" remote="github" revision="cm-13.0"/>
   <project path="device/samsung/gprimeltespr" name="Galaxy-MSM8916/android_device_samsung_gprimeltespr" groups="device" remote="github" revision="cm-13.0"/>
-  <project path="vendor/samsung/gprimeltespr" name="Galaxy-MSM8916/android_vendor_samsung_gprimeltespr" groups="device" remote="github" revision="cm-13.0"/>
   <project path="device/samsung/gprimeltexx" name="Galaxy-MSM8916/android_device_samsung_gprimeltexx" groups="device" remote="github" revision="cm-13.0"/>
-  <project path="vendor/samsung/gprimeltexx" name="Galaxy-MSM8916/android_vendor_samsung_gprimeltexx" groups="device" remote="github" revision="cm-13.0"/>
   <project path="device/samsung/gprimeltezt" name="Galaxy-MSM8916/android_device_samsung_gprimeltezt" groups="device" remote="github" revision="cm-13.0"/>
-  <project path="vendor/samsung/gprimeltezt" name="Galaxy-MSM8916/android_vendor_samsung_gprimeltezt" groups="device" remote="github" revision="cm-13.0"/>
   <project path="device/samsung/gprimeltetfnvzw" name="Galaxy-MSM8916/android_device_samsung_gprimeltetfnvzw" groups="device" remote="github" revision="cm-13.0"/>
-  <project path="vendor/samsung/gprimeltetfnvzw" name="Galaxy-MSM8916/android_vendor_samsung_gprimeltetfnvzw" remote="github" revision="cm-13.0"/>
 
   <project path="device/samsung/fortunave3g" name="Galaxy-MSM8916/android_device_samsung_fortunave3g" groups="device" remote="github" revision="cm-13.0"/>
-  <project path="device/samsung/fortunalte" name="Galaxy-MSM8916/android_device_samsung_fortunalte" groups="device" remote="github" revision="cm-13.0"/>
+  <project path="device/samsung/fortunalteub" name="Galaxy-MSM8916/android_device_samsung_fortunalteub" groups="device" remote="github" revision="cm-13.0"/>
   <project path="device/samsung/fortuna3g" name="Galaxy-MSM8916/android_device_samsung_fortuna3g" groups="device" remote="github" revision="cm-13.0"/>
-  <project path="vendor/samsung/fortunalte" name="Galaxy-MSM8916/android_vendor_samsung_fortunalte" remote="github" revision="cm-13.0"/>
   <project path="device/samsung/gprimelte" name="Galaxy-MSM8916/android_device_samsung_gprimelte" groups="device" remote="github" revision="cm-13.0"/>
-  <project path="vendor/samsung/gprimelte" name="Galaxy-MSM8916/android_vendor_samsung_gprimelte" remote="github" revision="cm-13.0"/>
-  <project path="external/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" />
-  <project path="external/busybox" name="LineageOS/android_external_busybox" />
-  <project path="external/stlport" name="platform/external/stlport" groups="pdk" remote="aosp5" />
   <project path="device/samsung/gte-common" name="Galaxy-MSM8916/android_device_samsung_gte-common" groups="device" remote="github" revision="cm-13.0"/>
   <project path="device/samsung/gtelwifiue" name="Galaxy-MSM8916/android_device_samsung_gtelwifiue" groups="device" remote="github" revision="cm-13.0"/>
-  <project path="vendor/samsung/gtelwifiue" name="Galaxy-MSM8916/android_vendor_samsung_gtelwifiue" groups="device" remote="github" revision="cm-13.0"/>
   <project path="device/samsung/gtesqltespr" name="Galaxy-MSM8916/android_device_samsung_gtesqltespr" groups="device" remote="github" revision="cm-13.0"/>
-  <project path="vendor/samsung/gtesqltespr" name="Galaxy-MSM8916/android_vendor_samsung_gtesqltespr" groups="device" remote="github" revision="cm-13.0"/>
+
+  <project path="vendor/samsung" name="Galaxy-MSM8916/proprietary_vendor_samsung" groups="device" remote="github" revision="cm-13.0"/>
 </manifest>

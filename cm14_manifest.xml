@@ -23,8 +23,11 @@
 
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings"/>
  
+  <project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" remote="github" revision="android-7.1"/>
+
   <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" />
   <project path="external/stlport" name="LineageOS/android_external_stlport"/>
+
 
   <project path="hardware/samsung" name="LineageOS/android_hardware_samsung"/>
   <project path="device/qcom-common" name="LineageOS/android_device_qcom_common"/>

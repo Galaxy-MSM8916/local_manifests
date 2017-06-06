@@ -25,6 +25,7 @@
  
   <project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" remote="github" revision="android-7.1"/>
 
+  <project path="external/busybox" name="LineageOS/android_external_busybox" />
   <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" />
   <project path="external/stlport" name="LineageOS/android_external_stlport"/>
 

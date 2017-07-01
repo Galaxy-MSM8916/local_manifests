@@ -45,6 +45,9 @@
   <project path="device/samsung/j5lte" name="Galaxy-MSM8916/android_device_samsung_j5lte" groups="device" remote="github"/>
   <project path="device/samsung/j5ltechn" name="Galaxy-MSM8916/android_device_samsung_j5ltechn" groups="device" remote="github"/>
 
+  <project path="device/samsung/j7lte-common" name="Galaxy-MSM8916/android_device_samsung_j7lte-common" groups="device" remote="github"/>
+  <project path="device/samsung/j7ltespr" name="Galaxy-MSM8916/android_device_samsung_j7ltespr" groups="device" remote="github"/>
+
   <project path="device/samsung/msm8916-common" name="LineageOS/android_device_samsung_msm8916-common" groups="device" remote="github"/>
 
   <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" groups="device" />

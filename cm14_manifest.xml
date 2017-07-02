@@ -21,6 +21,8 @@
 
   <remove-project name="platform/sdk" />
 
+  
+ <!-- TWRP -->
   <project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" remote="github" revision="android-7.1"/>
 
   
@@ -56,7 +58,7 @@
   <project path="device/samsung/j5ltechn" name="Galaxy-MSM8916/android_device_samsung_j5ltechn" groups="device" remote="github"/>
 
   
- <!-- Galaxy J7 Device Trees -->
+ <!-- Galaxy J7 Device Tree SM-J700P -->
   <project path="device/samsung/j7lte-common" name="Galaxy-MSM8916/android_device_samsung_j7lte-common" groups="device" remote="github"/>
   <project path="device/samsung/j7ltespr" name="Galaxy-MSM8916/android_device_samsung_j7ltespr" groups="device" remote="github"/>
 

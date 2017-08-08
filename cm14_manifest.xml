@@ -27,7 +27,7 @@
 
   
   <!-- Qcom Common -->
-  <project path="device/qcom-common" name="LineageOS/android_device_qcom_common"/>
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common"/>
 
   
   <!-- Grand Prime Fortuna Device Trees -->

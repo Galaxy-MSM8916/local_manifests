@@ -50,7 +50,7 @@
   <project path="device/samsung/gtelwifiue" name="LineageOS/android_device_samsung_gtelwifiue" groups="device" remote="github"/>
   <project path="device/samsung/gtesqltespr" name="LineageOS/android_device_samsung_gtesqltespr" groups="device" remote="github"/>
 
- <!-- Galaxy J5 Device Trees -->
+ <!-- Galaxy J5 (SM-J500H - j53gxx) || (J500F-G-M-Y - j5lte) || (J500FN - j5nlte) || (J5008 - j5ltechn) -->
   <project path="device/samsung/j5-common" name="Galaxy-MSM8916/android_device_samsung_j5-common" groups="device" remote="github"/>
   <project path="device/samsung/j53gxx" name="Galaxy-MSM8916/android_device_samsung_j53gxx" groups="device" remote="github"/>
   <project path="device/samsung/j5lte" name="Galaxy-MSM8916/android_device_samsung_j5lte" groups="device" remote="github"/>
@@ -82,4 +82,5 @@
   
  <!-- Vendor Trees For All Device Trees -->
   <project path="vendor/samsung" name="Galaxy-MSM8916/proprietary_vendor_samsung" groups="device" remote="github"/>
+
 </manifest>

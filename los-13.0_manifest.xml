@@ -4,7 +4,7 @@
   <remote  name="Galaxy-MSM8916"
            fetch="https://github.com"
            review="review.msm8916.com"
-           revision="cm-14.1" />
+           revision="cm-13.0" />
 
   <remote  name="aosp5"
            fetch="https://android.googlesource.com"

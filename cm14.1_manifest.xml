@@ -34,13 +34,17 @@
   <!-- Qcom Common -->
   <project path="device/qcom/common" name="LineageOS/android_device_qcom_common"/>
 
+  <!-- A3 Device Trees -->
+  <project path="device/samsung/a3lte" name="Galaxy-MSM8916/android_device_samsung_a3lte" groups="device" remote="Galaxy-MSM8916"/>
+  <project path="device/samsung/a3ulte" name="Galaxy-MSM8916/android_device_samsung_a3ulte" groups="device" remote="Galaxy-MSM8916"/>
+  <project path="device/samsung/a33g" name="Galaxy-MSM8916/android_device_samsung_a33g" groups="device" remote="Galaxy-MSM8916"/>
+  <project path="device/samsung/a3-common" name="Galaxy-MSM8916/android_device_samsung_a3-common" groups="device" remote="Galaxy-MSM8916"/>
   
   <!-- Grand Prime Fortuna Device Trees -->
   <project path="device/samsung/fortuna3g" name="Galaxy-MSM8916/android_device_samsung_fortuna3g" groups="device" remote="Galaxy-MSM8916"/>
   <project path="device/samsung/fortunalteub" name="Galaxy-MSM8916/android_device_samsung_fortunalteub" groups="device" remote="Galaxy-MSM8916"/>
   <project path="device/samsung/fortunave3g" name="Galaxy-MSM8916/android_device_samsung_fortunave3g" groups="device" remote="Galaxy-MSM8916"/>
 
-  
   <!-- Grand Prime G530FZ-MU-P-T-T1-W Device Trees -->
   <project path="device/samsung/gprimelte" name="LineageOS/android_device_samsung_gprimelte" groups="device" remote="Galaxy-MSM8916"/>
   <project path="device/samsung/gprimelte-common" name="LineageOS/android_device_samsung_gprimelte-common" groups="device" remote="Galaxy-MSM8916"/>

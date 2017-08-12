@@ -46,18 +46,18 @@
   <project path="device/samsung/fortunave3g" name="Galaxy-MSM8916/android_device_samsung_fortunave3g" groups="device" remote="Galaxy-MSM8916"/>
 
   <!-- Grand Prime G530FZ-MU-P-T-T1-W Device Trees -->
-  <project path="device/samsung/gprimelte" name="LineageOS/android_device_samsung_gprimelte" groups="device" remote="Galaxy-MSM8916"/>
-  <project path="device/samsung/gprimelte-common" name="LineageOS/android_device_samsung_gprimelte-common" groups="device" remote="Galaxy-MSM8916"/>
-  <project path="device/samsung/gprimeltespr" name="LineageOS/android_device_samsung_gprimeltespr" groups="device" remote="Galaxy-MSM8916"/>
+  <project path="device/samsung/gprimelte" name="Galaxy-MSM8916/android_device_samsung_gprimelte" groups="device" remote="Galaxy-MSM8916"/>
+  <project path="device/samsung/gprimelte-common" name="Galaxy-MSM8916/android_device_samsung_gprimelte-common" groups="device" remote="Galaxy-MSM8916"/>
+  <project path="device/samsung/gprimeltespr" name="Galaxy-MSM8916/android_device_samsung_gprimeltespr" groups="device" remote="Galaxy-MSM8916"/>
   <project path="device/samsung/gprimeltetfnvzw" name="Galaxy-MSM8916/android_device_samsung_gprimeltetfnvzw" groups="device" remote="Galaxy-MSM8916"/>
-  <project path="device/samsung/gprimeltexx" name="LineageOS/android_device_samsung_gprimeltexx" groups="device" remote="Galaxy-MSM8916"/>
+  <project path="device/samsung/gprimeltexx" name="Galaxy-MSM8916/android_device_samsung_gprimeltexx" groups="device" remote="Galaxy-MSM8916"/>
   <project path="device/samsung/gprimeltezt" name="Galaxy-MSM8916/android_device_samsung_gprimeltezt" groups="device" remote="Galaxy-MSM8916"/>
 
   
   <!-- Galaxy Tab E (SM-T377P - gtesqltespr) && (SM-T560NU - gtelwifiue) -->
-  <project path="device/samsung/gte-common" name="LineageOS/android_device_samsung_gte-common" groups="device" remote="Galaxy-MSM8916"/>
-  <project path="device/samsung/gtelwifiue" name="LineageOS/android_device_samsung_gtelwifiue" groups="device" remote="Galaxy-MSM8916"/>
-  <project path="device/samsung/gtesqltespr" name="LineageOS/android_device_samsung_gtesqltespr" groups="device" remote="Galaxy-MSM8916"/>
+  <project path="device/samsung/gte-common" name="Galaxy-MSM8916/android_device_samsung_gte-common" groups="device" remote="Galaxy-MSM8916"/>
+  <project path="device/samsung/gtelwifiue" name="Galaxy-MSM8916/android_device_samsung_gtelwifiue" groups="device" remote="Galaxy-MSM8916"/>
+  <project path="device/samsung/gtesqltespr" name="Galaxy-MSM8916/android_device_samsung_gtesqltespr" groups="device" remote="Galaxy-MSM8916"/>
 
  <!-- Galaxy J5 (SM-J500H - j53gxx) || (J500F-G-M-Y - j5lte) || (J500FN - j5nlte) || (J5008 - j5ltechn) -->
   <project path="device/samsung/j5-common" name="Galaxy-MSM8916/android_device_samsung_j5-common" groups="device" remote="Galaxy-MSM8916"/>
@@ -71,7 +71,7 @@
   <project path="device/samsung/j7ltespr" name="Galaxy-MSM8916/android_device_samsung_j7ltespr" groups="device" remote="Galaxy-MSM8916"/>
 
  <!-- Samsung MSM8916 Common Repos -->
-  <project path="device/samsung/msm8916-common" name="LineageOS/android_device_samsung_msm8916-common" groups="device" remote="Galaxy-MSM8916"/>
+  <project path="device/samsung/msm8916-common" name="Galaxy-MSM8916/android_device_samsung_msm8916-common" groups="device" remote="Galaxy-MSM8916"/>
   <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" groups="device" />
 
  <!-- Dependencies -->
@@ -86,7 +86,7 @@
 
   
  <!-- Common Samsung MSM8916 Kernel -->
-  <project path="kernel/samsung/msm8916" name="LineageOS/android_kernel_samsung_msm8916" remote="github"/>
+  <project path="kernel/samsung/msm8916" name="Galaxy-MSM8916/android_kernel_samsung_msm8916" remote="Galaxy-MSM8916"/>
 
   
  <!-- Vendor Trees For All Device Trees -->

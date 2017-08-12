@@ -57,6 +57,7 @@
   <project path="device/samsung/gprimeltespr" name="Galaxy-MSM8916/android_device_samsung_gprimeltespr" groups="device" remote="Galaxy-MSM8916"/>
   <project path="device/samsung/gprimeltetfnvzw" name="Galaxy-MSM8916/android_device_samsung_gprimeltetfnvzw" groups="device" remote="Galaxy-MSM8916"/>
   <project path="device/samsung/gprimeltexx" name="Galaxy-MSM8916/android_device_samsung_gprimeltexx" groups="device" remote="Galaxy-MSM8916"/>
+  <project path="device/samsung/gprimeltectc" name="Galaxy-MSM8916/android_device_samsung_gprimeltectc" groups="device" remote="Galaxy-MSM8916"/>
   <project path="device/samsung/gprimeltezt" name="Galaxy-MSM8916/android_device_samsung_gprimeltezt" groups="device" remote="Galaxy-MSM8916"/>
 
   <!-- Core Prime Device Trees -->

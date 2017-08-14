@@ -90,7 +90,7 @@
   <project path="kernel/samsung/msm8916" name="Galaxy-MSM8916/android_kernel_samsung_msm8916" remote="Galaxy-MSM8916"/>
 
  <!-- Substratum Repo -->
- <project path="external/Substratum" name="Galaxy-MSM8916/android_external_substratum" remote="Galaxy-MSM8916"/>
+ <project path="external/Substratum" name="Galaxy-MSM8916/android_external_substratum" remote="Galaxy-MSM8916" revision="master"/>
   
  <!-- Vendor Trees For All Device Trees -->
   <project path="vendor/samsung" name="Galaxy-MSM8916/proprietary_vendor_samsung" groups="device" remote="Galaxy-MSM8916"/>

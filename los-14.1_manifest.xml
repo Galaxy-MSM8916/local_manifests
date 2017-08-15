@@ -6,6 +6,8 @@
            review="review.msm8916.com"
            revision="cm-14.1" />
 
+  <remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9"/>
+
   <remove-project name="device/generic/mini-emulator-arm64" />
   <remove-project name="device/generic/mini-emulator-x86" />
   <remove-project name="device/generic/mini-emulator-x86_64" />
@@ -15,9 +17,14 @@
 
   <remove-project name="platform/prebuilts/android-emulator" />
 
+  <premove-roject name="platform/prebuilts/clang/darwin-x86/host/3.6"/>
+  <remove-project name="platform/prebuilts/clang/host/darwin-x86"/>
+
   <remove-project name="platform/prebuilts/eclipse" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+  <remove-project name="platform/prebuilts/gdb/darwin-x86"/>
+  <remove-project name="platform/prebuilts/go/darwin-x86"/>
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
   
   <remove-project name="platform/prebuilts/gradle-plugin" />
@@ -26,7 +33,6 @@
 
   <remove-project name="platform/sdk" />
 
-  
  <!-- TWRP -->
   <project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" remote="github" revision="android-7.1"/>
 

@@ -17,7 +17,7 @@
 
   <remove-project name="platform/prebuilts/android-emulator" />
 
-  <premove-roject name="platform/prebuilts/clang/darwin-x86/host/3.6"/>
+  <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6"/>
   <remove-project name="platform/prebuilts/clang/host/darwin-x86"/>
 
   <remove-project name="platform/prebuilts/eclipse" />

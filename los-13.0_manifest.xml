@@ -37,7 +37,7 @@
   <remove-project name="platform/sdk" />
 
  <!-- TWRP -->
-  <project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" remote="github" revision="android-7.0"/>
+ <!-- <project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" remote="github" revision="android-7.0"/> -->
 
   <!-- Qcom Common -->
   <project path="device/qcom/common" name="LineageOS/android_device_qcom_common"/>

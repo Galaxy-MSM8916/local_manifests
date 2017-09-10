@@ -99,12 +99,11 @@
   
   
  <!-- Samsung Hardware Repo -->
-  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung"/>
+  <project path="hardware/samsung" name="Galaxy-MSM8916/android_hardware_samsung" remote="Galaxy-MSM8916"/>
 
-  
  <!-- Common Samsung MSM8916 Kernel -->
   <project path="kernel/samsung/msm8916" name="Galaxy-MSM8916/android_kernel_samsung_msm8916" remote="Galaxy-MSM8916"/>
-
+  
  <!-- Vendor Trees For All Device Trees -->
   <project path="vendor/samsung" name="Galaxy-MSM8916/proprietary_vendor_samsung" groups="device" remote="Galaxy-MSM8916"/>
 </manifest>

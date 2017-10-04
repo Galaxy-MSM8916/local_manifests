@@ -59,7 +59,10 @@
   <project path="device/samsung/gprimeltexx" name="Galaxy-MSM8916/android_device_samsung_gprimeltexx" groups="device" remote="Galaxy-MSM8916"/>
   <project path="device/samsung/gprimeltezt" name="Galaxy-MSM8916/android_device_samsung_gprimeltezt" groups="device" remote="Galaxy-MSM8916"/>
 
-  
+  <!-- Core Prime Device Trees -->
+  <project path="device/samsung/coreprimeltespr" name="Galaxy-MSM8916/android_device_samsung_coreprimeltespr" groups="device" remote="Galaxy-MSM8916"/>
+  <project path="device/samsung/coreprimelte-common" name="Galaxy-MSM8916/android_device_samsung_coreprimelte-common" groups="device" remote="Galaxy-MSM8916"/>
+
   <!-- Galaxy Tab E (SM-T377P - gtesqltespr) && (SM-T560NU - gtelwifiue) -->
   <project path="device/samsung/gte-common" name="Galaxy-MSM8916/android_device_samsung_gte-common" groups="device" remote="Galaxy-MSM8916"/>
   <project path="device/samsung/gtelwifiue" name="Galaxy-MSM8916/android_device_samsung_gtelwifiue" groups="device" remote="Galaxy-MSM8916"/>

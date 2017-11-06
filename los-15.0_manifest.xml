@@ -15,8 +15,6 @@
   <remove-project name="device/generic/x86" />
   <remove-project name="device/generic/x86_64" />
 
-  <remove-project name="LineageOS/android_hardware_qcom_wlan" />
-  
   <remove-project name="platform/prebuilts/android-emulator" />
 
   <remove-project name="platform/prebuilts/clang/host/darwin-x86"/>
@@ -97,9 +95,6 @@
   -->
 
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings"/>
-  
-  <!-- Qcom Wlan Repo -->
-  <project path="hardware/qcom/wlan-caf" name="Galaxy-MSM8916/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="Galaxy-MSM8916" revision="lineage-15.0-caf" />
   
   
  <!-- Samsung Hardware Repo -->

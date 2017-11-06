@@ -15,7 +15,6 @@
   <remove-project name="device/generic/x86" />
   <remove-project name="device/generic/x86_64" />
 
-  <remove-project name="LineageOS/android_bionic" />
   <remove-project name="LineageOS/android_hardware_qcom_wlan" />
   
   <remove-project name="platform/prebuilts/android-emulator" />
@@ -103,8 +102,6 @@
   <project path="hardware/qcom/wlan-caf" name="Galaxy-MSM8916/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="Galaxy-MSM8916" revision="lineage-15.0-caf" />
   <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" />
   
-  <!-- Bionic Repo -->
-  <project path="bionic" name="Galaxy-MSM8916/android_bionic" groups="pdk" remote="Galaxy-MSM8916"/>
   
  <!-- Samsung Hardware Repo -->
   <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" />

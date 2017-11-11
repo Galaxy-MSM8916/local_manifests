@@ -91,9 +91,8 @@
  <!-- Dependencies -->
  <!--
   <project path="external/busybox" name="LineageOS/android_external_busybox" />
-  <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" />
   -->
-
+  <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings"/>
   
   

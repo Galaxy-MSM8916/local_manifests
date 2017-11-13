@@ -84,6 +84,10 @@
   <project path="device/samsung/j7ltespr" name="Galaxy-MSM8916/android_device_samsung_j7ltespr" groups="device" remote="Galaxy-MSM8916"/>
   <project path="device/samsung/j7ltechn" name="Galaxy-MSM8916/android_device_samsung_j7ltechn" groups="device" remote="Galaxy-MSM8916"/>
 
+ <!-- Galaxy S4 Mini -->
+  <project path="device/samsung/serranovexx-common" name="Galaxy-MSM8916/android_device_samsung_serranovexx-common" groups="device" remote="Galaxy-MSM8916"/>
+  <project path="device/samsung/serranovelte" name="Galaxy-MSM8916/android_device_samsung_serranovelte" groups="device" remote="Galaxy-MSM8916"/>
+
  <!-- Samsung MSM8916 Common Repos -->
   <project path="device/samsung/msm8916-common" name="Galaxy-MSM8916/android_device_samsung_msm8916-common" groups="device" remote="Galaxy-MSM8916"/>
   <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" groups="device" /> 

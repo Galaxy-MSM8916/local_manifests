@@ -91,9 +91,7 @@
   <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" groups="device" /> 
 
  <!-- Dependencies -->
- <!--
-  <project path="external/busybox" name="LineageOS/android_external_busybox" />
-  -->
+  <project path="external/busybox" name="omnirom/android_external_busybox" remote="github" revision="android-8.0"/>
   <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings"/>
   

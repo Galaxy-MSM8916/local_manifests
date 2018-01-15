@@ -32,7 +32,6 @@
   
   <remove-project name="platform/prebuilts/gradle-plugin" />
   <remove-project name="platform/prebuilts/libs/libedit" />
-  <remove-project name="platform/prebuilts/maven_repo/android" />
 
   <remove-project name="platform/sdk" />
  

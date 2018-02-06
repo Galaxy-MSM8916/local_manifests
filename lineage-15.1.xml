@@ -4,7 +4,7 @@
   <remote  name="Galaxy-MSM8916"
            fetch="https://github.com"
            review="review.msm8916.com"
-           revision="lineage-15.0" />
+           revision="lineage-15.1" />
 
 
 
@@ -86,7 +86,7 @@
   <project path="device/samsung/serranovelte" name="Galaxy-MSM8916/android_device_samsung_serranovelte" groups="device" remote="Galaxy-MSM8916"/>
 
  <!-- Samsung MSM8916 Common Repos -->
- <project path="device/samsung/msm8916-common" name="Galaxy-MSM8916/android_device_samsung_msm8916-common" groups="device" remote="Galaxy-MSM8916" revision="lineage-15.1"/>
+ <project path="device/samsung/msm8916-common" name="Galaxy-MSM8916/android_device_samsung_msm8916-common" groups="device" remote="Galaxy-MSM8916"/>
   <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" groups="device" remote="github" revision="lineage-15.1"/> 
 
  <!-- Dependencies -->
@@ -101,5 +101,5 @@
   <project path="kernel/samsung/msm8916" name="Galaxy-MSM8916/android_kernel_samsung_msm8916" remote="Galaxy-MSM8916"/>
 
  <!-- Vendor Trees For All Device Trees -->
-  <project path="vendor/samsung" name="Galaxy-MSM8916/proprietary_vendor_samsung" groups="device" remote="Galaxy-MSM8916" revision="lineage-15.1"/>
+  <project path="vendor/samsung" name="Galaxy-MSM8916/proprietary_vendor_samsung" groups="device" remote="Galaxy-MSM8916"/>
 </manifest>

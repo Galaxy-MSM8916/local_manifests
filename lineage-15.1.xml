@@ -91,11 +91,11 @@
 
  <!-- Samsung MSM8916 Common Repos -->
  <project path="device/samsung/msm8916-common" name="Galaxy-MSM8916/android_device_samsung_msm8916-common" groups="device" remote="Galaxy-MSM8916"/>
-  <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" groups="device" remote="github" revision="lineage-15.1"/> 
+  <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" groups="device"/>
 
  <!-- Dependencies -->
  <!-- <project path="external/busybox" name="omnirom/android_external_busybox" remote="github" revision="android-8.1"/> -->
-  <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="lineage-15.0"/>
+  <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat"/>
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings"/>
   
  <!-- Samsung Hardware Repo -->

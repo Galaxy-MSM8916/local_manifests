@@ -69,8 +69,6 @@
 
  <!-- Dependencies -->
   <project path="external/sony/boringssl-compat" name="DotOS/android_external_sony_boringssl-compat" />
-
-  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-15.1" />
   
  <!-- Samsung Hardware Repo -->
   <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" />

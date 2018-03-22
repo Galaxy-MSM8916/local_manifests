@@ -6,12 +6,9 @@
            review="review.msm8916.com"
            revision="lineage-15.1" />
 
-  <remove-project name="platform/prebuilts/android-emulator" />
+  <remove-project name="android_hardware_qcom_audio"/>
 
-  <remove-project name="platform/prebuilts/gradle-plugin" />
-  <remove-project name="platform/prebuilts/libs/libedit" />
-
-  <remove-project name="platform/sdk" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="Galaxy-MSM8916/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="lineage-15.1-caf-8916" />
 
   <!-- A3 Device Trees -->
   <project path="device/samsung/a3lte" name="Galaxy-MSM8916/android_device_samsung_a3lte" groups="device" remote="Galaxy-MSM8916"/>
@@ -62,16 +59,17 @@
 
  <!-- Samsung MSM8916 Common Repos -->
  <project path="device/samsung/msm8916-common" name="Galaxy-MSM8916/android_device_samsung_msm8916-common" groups="device" remote="Galaxy-MSM8916"/>
-  <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" groups="device" remote="github" revision="lineage-15.1"/> 
+ <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" groups="device" remote="github" revision="lineage-15.1"/> 
 
  <!-- arm-eabi-7.2 -->
  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.2" name="Galaxy-MSM8916/android-prebuilts-gcc-linux-x86-arm-arm-eabi-7.2" remote="github" revision="master"/>
 
  <!-- Dependencies -->
-  <project path="external/sony/boringssl-compat" name="DotOS/android_external_sony_boringssl-compat" />
+ <!-- <project path="external/busybox" name="omnirom/android_external_busybox" remote="github" revision="android-8.1"/> -->
+  <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="lineage-15.1"/>
   
  <!-- Samsung Hardware Repo -->
-  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" />
+  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-15.1" />
 
  <!-- Common Samsung MSM8916 Kernel -->
   <project path="kernel/samsung/msm8916" name="Galaxy-MSM8916/android_kernel_samsung_msm8916" remote="Galaxy-MSM8916"/>

@@ -85,6 +85,10 @@
   <project path="device/samsung/j5x-common" name="Galaxy-MSM8916/android_device_samsung_j5x-common" groups="device" remote="Galaxy-MSM8916"/>
   <project path="device/samsung/j5xnlte" name="Galaxy-MSM8916/android_device_samsung_j5xnlte" groups="device" remote="Galaxy-MSM8916"/>
 
+ <!-- O7 -->
+  <project path="device/samsung/o7-common" name="Galaxy-MSM8916/android_device_samsung_o7-common" groups="device" remote="Galaxy-MSM8916"/>
+  <project path="device/samsung/o7prolte" name="Galaxy-MSM8916/android_device_samsung_o7prolte" groups="device" remote="Galaxy-MSM8916"/>
+
  <!-- Galaxy J7 Device Tree SM-J700P -->
   <project path="device/samsung/j7lte-common" name="Galaxy-MSM8916/android_device_samsung_j7lte-common" groups="device" remote="Galaxy-MSM8916"/>
   <project path="device/samsung/j7ltespr" name="Galaxy-MSM8916/android_device_samsung_j7ltespr" groups="device" remote="Galaxy-MSM8916"/>

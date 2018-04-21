@@ -37,11 +37,7 @@
 
   <remove-project name="LineageOS/android_hardware_qcom_audio"/>
 
-  <remove-project name="LineageOS/android_vendor_qcom_opensource_dataservices"/>
-
   <project path="hardware/qcom/audio-caf/msm8916" name="Galaxy-MSM8916/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8916" />
- 
-  <project path="vendor/qcom/opensource/dataservices" name="Galaxy-MSM8916/android_vendor_qcom_opensource_dataservices" revision="lineage-15.1" />
 
   <!-- Qcom Common -->
   <project path="device/qcom/common" name="LineageOS/android_device_qcom_common"/>

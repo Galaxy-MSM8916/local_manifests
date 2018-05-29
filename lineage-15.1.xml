@@ -121,4 +121,7 @@
 
  <!-- Vendor Trees For All Device Trees -->
   <project path="vendor/samsung" name="Galaxy-MSM8916/proprietary_vendor_samsung" groups="device" remote="Galaxy-MSM8916"/>
+
+ <!-- GappsGo -->
+  <project path="vendor/gapps-go" name="Galaxy-MSM8916/gapps-go" revision="master"/>
 </manifest>

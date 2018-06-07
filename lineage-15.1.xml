@@ -76,6 +76,7 @@
   <!-- Galaxy Tab A (SM-T350 - gt58wifi) && (SM-T550 - gt510wifi) -->
   <project path="device/samsung/gt58wifi" name="Galaxy-MSM8916/android_device_samsung_gt58wifi" groups="device" remote="Galaxy-MSM8916"/>
   <project path="device/samsung/gt510wifi" name="Galaxy-MSM8916/android_device_samsung_gt510wifi" groups="device" remote="Galaxy-MSM8916"/>
+  <project path="device/samsung/gt510lte" name="Galaxy-MSM8916/android_device_samsung_gt510lte" groups="device" remote="Galaxy-MSM8916"/>
 
  <!-- Galaxy J5 (SM-J500H - j53gxx) || (J500F-G-M-Y - j5lte) || (J500FN - j5nlte) || (J5008 - j5ltechn) -->
   <project path="device/samsung/j5-common" name="Galaxy-MSM8916/android_device_samsung_j5-common" groups="device" remote="Galaxy-MSM8916"/>

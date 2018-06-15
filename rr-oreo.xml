@@ -63,11 +63,9 @@
 
   
   <!-- Galaxy Tab E (SM-T377P - gtesqltespr) && (SM-T560NU - gtelwifiue) -->
-  <!--
   <project path="device/samsung/gte-common" name="Galaxy-MSM8916/android_device_samsung_gte-common" groups="device" remote="Galaxy-MSM8916"/>
   <project path="device/samsung/gtelwifiue" name="Galaxy-MSM8916/android_device_samsung_gtelwifiue" groups="device" remote="Galaxy-MSM8916"/>
   <project path="device/samsung/gtesqltespr" name="Galaxy-MSM8916/android_device_samsung_gtesqltespr" groups="device" remote="Galaxy-MSM8916"/>
-  -->
 
  <!-- Galaxy J5 (SM-J500H - j53gxx) || (J500F-G-M-Y - j5lte) || (J500FN - j5nlte) || (J5008 - j5ltechn) -->
   <project path="device/samsung/j5-common" name="Galaxy-MSM8916/android_device_samsung_j5-common" groups="device" remote="Galaxy-MSM8916"/>

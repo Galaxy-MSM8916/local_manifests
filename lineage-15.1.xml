@@ -68,10 +68,8 @@
   
   <!-- Galaxy Tab E (SM-T377P - gtesqltespr) && (SM-T560NU - gtelwifiue) -->
   <project path="device/samsung/gte-common" name="Galaxy-MSM8916/android_device_samsung_gte-common" groups="device" remote="Galaxy-MSM8916"/>
-  <!--
   <project path="device/samsung/gtelwifiue" name="Galaxy-MSM8916/android_device_samsung_gtelwifiue" groups="device" remote="Galaxy-MSM8916"/>
   <project path="device/samsung/gtesqltespr" name="Galaxy-MSM8916/android_device_samsung_gtesqltespr" groups="device" remote="Galaxy-MSM8916"/>
-  -->
 
   <!-- Galaxy Tab A (SM-T350 - gt58wifi) && (SM-T550 - gt510wifi) -->
   <project path="device/samsung/gt58wifi" name="Galaxy-MSM8916/android_device_samsung_gt58wifi" groups="device" remote="Galaxy-MSM8916"/>

@@ -41,7 +41,7 @@
   <project path="device/qcom/common" name="LineageOS/android_device_qcom_common"/>
 
   <!-- TWRP -->
-  <project path="bootable/recovery-twrp" name="Galaxy-MSM8916/android_bootable_recovery" remote="github" revision="android-8.1"/>
+  <project path="bootable/recovery-twrp" name="OmniROM/android_bootable_recovery" remote="github" revision="android-8.1"/>
 
   <!-- A3 Device Trees -->
   <project path="device/samsung/a3lte" name="Galaxy-MSM8916/android_device_samsung_a3lte" groups="device" remote="Galaxy-MSM8916"/>

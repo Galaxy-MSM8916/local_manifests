@@ -4,7 +4,7 @@
   <remote  name="Galaxy-MSM8916"
            fetch="https://github.com"
            review="review.msm8916.com"
-           revision="lineage-15.1" />
+           revision="lineage-16.0" />
 
   <remove-project name="device/generic/mini-emulator-arm64" />
   <remove-project name="device/generic/mini-emulator-x86" />

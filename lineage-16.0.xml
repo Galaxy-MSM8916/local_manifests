@@ -49,7 +49,7 @@
  <!--  <project path="bootable/recovery-twrp" name="OmniROM/android_bootable_recovery" remote="github" revision="android-9.0"/> -->
 
  <!-- Dependencies -->
-  <project path="external/busybox" name="omnirom/android_external_busybox" remote="github" revision="android-8.1"/>
+ <!-- <project path="external/busybox" name="omnirom/android_external_busybox" remote="github" revision="android-8.1"/> -->
   <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="lineage-15.1"/>
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings"/>
 

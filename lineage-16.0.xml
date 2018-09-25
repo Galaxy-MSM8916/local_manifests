@@ -23,7 +23,7 @@
   <remove-project name="platform/prebuilts/gdb/darwin-x86"/>
   <remove-project name="platform/prebuilts/go/darwin-x86"/>
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
-  <remove-project name="platform/prebuilts/gradle-plugin" />
+  <!-- <remove-project name="platform/prebuilts/gradle-plugin" /> -->
   <remove-project name="platform/prebuilts/libs/libedit" />
 
   <remove-project name="platform/sdk" />

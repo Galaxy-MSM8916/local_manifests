@@ -53,6 +53,7 @@
 
  <!-- Galaxy S4 Mini -->
   <project path="device/samsung/serranovexx-common" name="Galaxy-MSM8916/android_device_samsung_serranovexx-common" groups="device" remote="Galaxy-MSM8916"/>
+  <project path="device/samsung/serranove3g" name="Galaxy-MSM8916/android_device_samsung_serranove3g" groups="device" remote="Galaxy-MSM8916"/>
   <project path="device/samsung/serranovelte" name="Galaxy-MSM8916/android_device_samsung_serranovelte" groups="device" remote="Galaxy-MSM8916"/>
 
  <!-- Samsung MSM8916 Common Repos -->

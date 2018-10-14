@@ -63,9 +63,6 @@
  <!-- MindTheGapps -->
   <project path="vendor/gapps" name="MindTheGapps/vendor_gapps" revision="master"/>
 
- <!-- GappsGo -->
-  <project path="vendor/gapps-go" name="Galaxy-MSM8916/gapps-go" revision="master"/>
-
  <!-- Galaxy A3 -->
   <project path="device/samsung/a3-common" name="Galaxy-MSM8916/android_device_samsung_a3-common" groups="device" remote="Galaxy-MSM8916"/>
   <project path="device/samsung/a3lte" name="Galaxy-MSM8916/android_device_samsung_a3lte" groups="device" remote="Galaxy-MSM8916"/>

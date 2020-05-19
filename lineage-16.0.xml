@@ -83,6 +83,15 @@
   <project path="device/samsung/gt510wifi" name="Galaxy-MSM8916/android_device_samsung_gt510wifi" groups="device" remote="Galaxy-MSM8916"/>
   <project path="device/samsung/gt510lte" name="Galaxy-MSM8916/android_device_samsung_gt510lte" groups="device" remote="Galaxy-MSM8916"/>
 
+ <!-- Galaxy J3 -->
+  <project path="device/samsung/j3-common" name="Galaxy-MSM8916/android_device_samsung_j3-common" groups="device" remote="Galaxy-MSM8916"/>
+  <project path="device/samsung/j3ltectc" name="Galaxy-MSM8916/android_device_samsung_j3ltectc" groups="device" remote="Galaxy-MSM8916"/>
+
+ <!-- Galaxy J3 Pro -->
+  <project path="device/samsung/j3xpro-common" name="Galaxy-MSM8916/android_device_samsung_j3xpro-common" groups="device" remote="Galaxy-MSM8916"/>
+  <project path="device/samsung/j3xproltechn" name="Galaxy-MSM8916/android_device_samsung_j3xproltechn" groups="device" remote="Galaxy-MSM8916"/>
+  <project path="device/samsung/j3xproltectc" name="Galaxy-MSM8916/android_device_samsung_j3xproltectc" groups="device" remote="Galaxy-MSM8916"/>
+
  <!-- Galaxy J5 (2015) -->
   <project path="device/samsung/j5-common" name="Galaxy-MSM8916/android_device_samsung_j5-common" groups="device" remote="Galaxy-MSM8916"/>
   <project path="device/samsung/j53gxx" name="Galaxy-MSM8916/android_device_samsung_j53gxx" groups="device" remote="Galaxy-MSM8916"/>

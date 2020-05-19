@@ -93,6 +93,7 @@
  <!-- Galaxy J5 (2016) -->
   <project path="device/samsung/j5x-common" name="Galaxy-MSM8916/android_device_samsung_j5x-common" groups="device" remote="Galaxy-MSM8916"/>
   <project path="device/samsung/j5xnlte" name="Galaxy-MSM8916/android_device_samsung_j5xnlte" groups="device" remote="Galaxy-MSM8916"/>
+  <project path="device/samsung/j5xltecmcc" name="Galaxy-MSM8916/android_device_samsung_j5xltecmcc" groups="device" remote="Galaxy-MSM8916"/>
 
  <!-- Galaxy On7 -->
   <project path="device/samsung/o7-common" name="Galaxy-MSM8916/android_device_samsung_o7-common" groups="device" remote="Galaxy-MSM8916"/>
